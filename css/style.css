@@ -4,10 +4,14 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
 
 
-
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
 /* UTILITIES */
 
 
@@ -28,11 +32,32 @@
 
 /* HEADER*/
 
-.nav{
-    background-color:pink;
-    height: 80px;
+header{
     margin-top: 18px;
 }
+
+
+a img{
+    width: 140px;
+    border-right: 1px solid lightgrey;
+    padding-right: 20px;
+}
+
+nav .menu{
+    margin-top: 20px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
 
 /*MAIN*/
 
