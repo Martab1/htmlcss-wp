@@ -10,14 +10,11 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 11px;
+    color: grey;
 }
 
 
-
-h1,
-h2{ font-weight: 600;
-}
 
 /* UTILITIES */
 
@@ -26,7 +23,6 @@ h2{ font-weight: 600;
     width: 1000px;
     max-width: 100%;
     margin: 0 auto;
-    
     
 }
 
@@ -39,17 +35,14 @@ h2{ font-weight: 600;
 
 /* HEADER*/
 
-header{
-    margin-top: 18px;
-}
-
-
+/*logo*/
 a img{
     width: 140px;
     border-right: 1px solid lightgrey;
     padding-right: 20px;
 }
 
+/*nav*/
 nav .menu{
     margin-top: 20px;
 }
@@ -63,12 +56,16 @@ nav .menu{
 
 .menu li a{
     text-decoration: none;
+    color:grey;
 }
-
+li:hover{
+    text-decoration: underline;
+}
 
 /*MAIN*/
 
-.head{
+/*heading*/
+.hero{
     height:400px ;
     margin-top: 18px;
     background-image:url("../img/banner.jpg");
@@ -76,24 +73,37 @@ nav .menu{
     background-position: center;
     filter: brightness(80%);
     border-radius: 10px;
-    position:relative;
+    
 }
 
-
+.head{
+    position: relative;
+}
 .title{
-   
     width: 400px;
     position: absolute;
     left:30px;
     bottom:50px;
+    color:whitesmoke;
 }
 
 
+.head .title h1{
+    font-weight: normal;
+    font-size: 20px;
+}
 
 
+/*center*/
 
 .leadership{
     margin-bottom: 2%;
+    
+}
+
+ h2{
+    color: black;
+    font-size: 20px;
     
 }
 
@@ -169,9 +179,15 @@ p{
 
 /*FOOTER*/
 
-.footer{
-    background-color: violet;
-    height: 50px;
-    margin-top:10px;
+
+footer .writeby{
+    text-align: center;
+    color:black;
+    padding:15px;
     
+}
+
+.heart{
+    color:red;
+    margin-left: 5px;
 }
