@@ -1,0 +1,90 @@
+/* GENERAL STYLE*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+/* UTILITIES */
+
+
+.container{
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    
+    
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+
+/* HEADER*/
+
+.nav{
+    background-color:pink;
+    height: 80px;
+    margin-top: 18px;
+}
+
+/*MAIN*/
+
+.head{
+    background-color: olive;
+    height:400px ;
+    margin-top: 18px;
+}
+
+
+.leadership{
+    background-color:lightblue;
+    height: 60px;
+    margin-bottom: 2%;
+}
+
+.special{
+    background-color: blue;
+    padding-bottom:1%;
+    margin-top: 18px;
+}
+
+
+.aside-left, .aside-right{
+    width:19%;
+    height: 400px;
+    background-color: lightblue;
+    float: left;
+
+}
+
+.center{
+    width:60%;
+    height: 400px;
+    background-color: lightblue;
+    float: left;
+}
+
+
+.aside-left{
+    margin-right:1%;
+}
+
+.aside-right{
+   margin-left:1%;
+}
+
+
+/*FOOTER*/
+
+.footer{
+    background-color: violet;
+    height: 50px;
+    margin-top:10px;
+}
