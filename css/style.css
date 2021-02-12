@@ -24,6 +24,7 @@ body{
     max-width: 100%;
     margin: 0 auto;
     
+    
 }
 
 .clearfix::after{
@@ -35,12 +36,46 @@ body{
 
 /* HEADER*/
 
+
 /*logo*/
 a img{
     width: 140px;
     border-right: 1px solid lightgrey;
     padding-right: 20px;
 }
+
+
+/*social icon*/
+.social{
+    padding-left:20px;
+    font-size: 20px;
+    color:grey;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.fa-instagram-square:hover{
+    color:rgb(56, 38, 14);
+} 
+
+.fa-facebook:hover{
+    color:#3b5998;
+}
+
+.fa-twitter-square:hover{
+    color:#00acee;
+}
+.fa-youtube:hover{
+    color:#c4302b;
+}
+
+.icon{
+    position:absolute;
+    top: 20px;
+}
+
 
 /*nav*/
 nav .menu{
@@ -63,6 +98,7 @@ li:hover{
 }
 
 /*MAIN*/
+
 
 /*heading*/
 .hero{
@@ -92,6 +128,7 @@ li:hover{
     font-weight: normal;
     font-size: 20px;
 }
+
 
 
 /*center*/
@@ -191,5 +228,5 @@ footer .writeby{
 
 .heart{
     color:red;
-    margin-left: 5px;
+    margin: 0 5px;
 }
